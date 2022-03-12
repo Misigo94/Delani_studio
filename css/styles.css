@@ -1,3 +1,16 @@
 body {
     text-align: center;
+    background-position: center;
+    background-size:cover;
+    
+    /* color: white; */
+}
+.welcome {
+    background-size: cover;
+}
+.about {
+    background-color: azure;
+}
+h1,.serv,.ser{
+    color:white;
 }
