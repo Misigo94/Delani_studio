@@ -6,11 +6,30 @@ body {
     /* color: white; */
 }
 .welcome {
-    background-size: cover;
+    /* background-size: cover; */
 }
 .about {
     background-color: azure;
 }
 h1,.serv,.ser{
     color:white;
+}
+.do,.portfolio{
+    background-color: white;
+
+}
+.do{
+    display: inline;
+}
+.dn {
+    /* margin-left:px; */
+    text-align: left;
+}
+.rs {
+    height: 150px;
+    width: 90px;
+}
+.row{
+    background-color: azure;
+    width:100%;
 }
