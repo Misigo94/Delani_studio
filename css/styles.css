@@ -76,6 +76,10 @@
     background-repeat:no-repeat;
 }
 
+.cont{
+    color:white;
+}
+
 #port1,#port2,#port3,#port4,#port5,#port6,#port7,#port8{
     display: none;
     color: black;
