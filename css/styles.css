@@ -88,6 +88,11 @@ footer {
 }
 
 #design, #development, #product {
-    display:none;
+    /* display:none; */
 
+}
+
+#portf{
+    margin-left:6%;
+    margin-right:10%;
 }
