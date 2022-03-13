@@ -1,35 +1,93 @@
-body {
-    text-align: center;
+.main {
+    background-image:("img/Del.jpg");
     background-position: center;
+    background-size: cover;
+    text-align: center;  
+}
+
+.container{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+
+.services {
+    text-align: center;
+    background-image:("img/serve.jpg");
+    background-position: center;
+    background-repeat: no-repeat;  
+}
+
+.container {
+    text-align: center;
+    padding: bottom 30px;
+    padding-top:40px;   
+}
+
+.services {
+    text-align: center;
+    background-image:("img/serve.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-do {
+    text-align: center;
+    padding-top:40px;
+}
+
+#portf {
+    display:flex;
+    flex-wrap: wrap;
+    align-items:center;
+    margin:18%;
+    margin-right: 16%;
+}
+
+.col-md-3 img {
+    max-width:100%;
+    max-width:100%;
+}
+
+.container-fluid contact {
+    background-image: ("");
+    background-position:center;
     background-size:cover;
-    
-    /* color: white; */
+    background-repeat:no-repeat;
 }
-.welcome {
-    /* background-size: cover; */
-}
-.about {
-    background-color: azure;
-}
-h1,.serv,.ser{
+
+input [type=text], input[type=email],#comment{
+    background:transparent;
     color:white;
 }
-.do,.portfolio{
-    background-color: white;
 
+button {
+    margin-left:2%;
+    padding-bottom:30px;
+    margin-bottom:20px;
 }
-.do{
-    display: inline;
+
+#MERGE1{
+    width:30%;
+    margin-left: 18%;
+    margin-right: 30px;
 }
-.dn {
-    /* margin-left:px; */
-    text-align: left;
+
+#MERGE0 {
+    width:30%;
 }
-.rs {
-    height: 150px;
-    width: 90px;
+
+#comment {
+    margin-left:20%;
+    padding: bottom 30px;
+    margin-bottom: 20px;
 }
-.row{
-    background-color: azure;
-    width:100%;
+
+footer {
+    margin-top:10px;
+}
+
+#design, #development, #product {
+    display:none;
+
 }
