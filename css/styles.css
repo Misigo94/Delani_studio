@@ -5,7 +5,14 @@
     text-align: center;
     background-repeat:no-repeat; 
     color: white; 
-    padding-top:17%;
+}
+
+.main h1 {
+    padding:2px;
+    margin:5px;
+}
+.main p {
+    padding:2px;
 }
 
 .container{
