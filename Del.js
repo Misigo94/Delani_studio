@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $("#img-design").click(function(){
-        $("p").slideUp(1000).hide();
+        $(".dn").hide();
         $("design").show();
     });
     $("img-design").click(function(){
