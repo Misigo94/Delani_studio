@@ -5,14 +5,23 @@
     text-align: center;
     background-repeat:no-repeat; 
     color: white; 
+    padding-top:25%;
 }
 
 .main h1 {
     padding:2px;
     margin:5px;
 }
+
 .main p {
     padding:2px;
+}
+
+#mouse-click{
+    padding-top:12px;
+    margin-top:10%;
+    padding-bottom: 30px;
+    animation:bounce 2s infinite;
 }
 
 .container{
@@ -30,11 +39,10 @@
     color:white; 
 }
 
-.services {
-    text-align: center;
-    background-image:("img/serve.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+#servicesoffered {
+    background-color: rgba(0,0,0,0.4);
+    padding:10%;
+    padding-bottom: 10%;
 }
 
 .container-do {
@@ -48,11 +56,17 @@
     align-items:center;
     margin:18%;
     margin-right: 16%;
+    /* display:inline-block; */
 }
 
 .col-md-3 img {
     max-width:100%;
     max-width:100%;
+}
+
+.portfolio h2 {
+    text-align: center;
+    padding-top: 40px;
 }
 
 .contact {
@@ -62,7 +76,7 @@
     background-repeat:no-repeat;
 }
 
-#port1,#port2,#port3,#port4,#port5,#overlay6,#port7,#port8{
+#port1,#port2,#port3,#port4,#port5,#port6,#port7,#port8{
     display: none;
     color: black;
     width: 100%;
@@ -74,7 +88,7 @@
     font-weight: bold;
     text-align: center;
     font-size: 30px;
-    padding-top: 50%;
+    padding-top: 10%;
     font-family: 'Delius Swash Caps', cursive;
   }
 
@@ -83,11 +97,12 @@ input [type=text], input[type=email],#comment{
     color:white;
 }
 
-button {
+button, .btn btn-primary col-md-1{
     margin-left:2%;
     padding-bottom:30px;
     margin-bottom:20px;
 }
+
 
 #MERGE1{
     width:30%;
@@ -110,7 +125,7 @@ footer {
 }
 
 #design, #development, #product {
-    /* display:none; */
+    display:none;
 
 }
 
@@ -118,3 +133,99 @@ footer {
     margin-left:6%;
     margin-right:10%;
 }
+/* start of media queries */
+
+@media only screen and (max-width: 755px){
+    #port1,#port2,#port3,#port4,#port5,#port6,#port7,#port8{
+      width: 100%;
+      height: 100%;
+      top: 20px;
+      left: 16px;
+      padding-top: 20%;
+      /* font-size: 16px; */
+    }
+    .col-md-3 img{
+      width:100%px;
+      margin: 20px;
+    }
+    #portfolio{
+      margin-left:8%;
+      margin-right: 16%; 
+    }
+    button{
+      margin-left: 2%;
+      padding-bottom: 30px;
+      margin-bottom: 20px;
+    }
+  }
+  @media only screen and (max-width: 425px){
+    #port1,#port2,#port3,#port4,#port5,#port6,#port7,#port8{
+      width: 100%;
+      height: 100%;
+      top: 20px;
+      left: 16px;
+      padding-top: 20%;
+      font-size: 20px;
+    }
+    .col-md-3 img{
+      width:100%px;
+      margin: 20px;
+    }
+    #portfolio{
+      margin-left:8%;
+      margin-right: 16%; 
+    }
+    button{
+      padding-bottom: 30px;
+      margin-bottom: 20px;
+    }
+    #MERGE0{
+      width: 84%;
+      margin-left: 4%;
+      padding-bottom: 10px;
+    }
+    #MERGE1{
+      width: 100%;
+      margin-left: 4%;
+      margin-bottom: 20px;
+    }
+    #comment{
+      margin-left: 4%;
+      width: 84%;
+    }
+  }
+  @media only screen and (min-width: 825px){
+    #port1,#port2,#port3,#port4,#port5,#port6,#port7,#port8{
+      width: 100%;
+      height: 100%;
+      top: 20px;
+      left: 20px;
+      padding-top:30%; 
+    }
+    .col-md-3 img{
+      width: 400px;
+      margin: 20px;
+    }
+    #portfolio{
+      margin-left:10%;
+      margin-right: 10%; 
+    }
+  }
+  @media only screen and (min-width: 625px){
+    #port1,#port2,#port3,#port4,#port5,#port6,#port7,#port8{
+      width: 100%;
+      height: 100%;
+      top: 20px;
+      left: 20px;
+      padding-top:20%; 
+      font-size: 26px;
+    }
+    .col-md-3 img{
+      width: 400px;
+      margin: 20px;
+    }
+    #portfolio{
+      margin-left:6%;
+      margin-right: 10%; 
+    }
+  }
