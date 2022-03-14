@@ -6,6 +6,8 @@
     background-repeat:no-repeat; 
     color: white; 
     padding-top:25%;
+    height:100vh;
+    width:100%;
 }
 
 .main h1 {
@@ -29,6 +31,15 @@
     padding-bottom: 30px;
     padding-top: 40px;
 }
+.container-do {
+
+}
+.col {
+  width:20.3%;
+  float:left;
+  padding: 0px 20px;
+  margin-left: ;
+}
 
 .services {
     text-align: center;
@@ -37,6 +48,8 @@
     background-size: cover;
     background-repeat: no-repeat; 
     color:white; 
+    width:100%;
+    height:auto;
 }
 
 #servicesoffered {
@@ -48,21 +61,47 @@
 .container-do {
     text-align: center;
     padding-top:40px;
+    height: 400px;
+    width:100%;
+    margin-left:10%;
 }
 
-#portf {
+/* #portf {
     display:flex;
     flex-wrap: wrap;
     align-items:center;
     margin:18%;
     margin-right: 16%;
     /* display:inline-block; */
+ */
+
+* 
+
+.portfolio {
+  text-align: center;
+  /* padding:50px; */
+  width:100%;
+  height:auto;
+  /* background-color: #daf; */
+} 
+
+.portfolio h2 {
+  text-align: center;
 }
 
-.col-md-3 img {
-    max-width:100%;
-    max-width:100%;
+.portcont {
+  display:grid;
+  grid-template-columns: auto auto auto auto;
+  /* gap :5px; */
+  /* margin:50px 120px; */
 }
+
+.portimg img{
+  border-radius: 5px;
+  width: 50%;
+}
+
+
 
 .portfolio h2 {
     text-align: center;
@@ -74,13 +113,15 @@
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
+    width:100%;
+    height:auto;
 }
 
 .cont{
     color:white;
 }
 
-#port1,#port2,#port3,#port4,#port5,#port6,#port7,#port8{
+/* #port1,#port2,#port3,#port4,#port5,#port6,#port7,#port8{
     display: none;
     color: black;
     width: 100%;
@@ -94,7 +135,7 @@
     font-size: 30px;
     padding-top: 10%;
     font-family: 'Delius Swash Caps', cursive;
-  }
+  } */
 
 input [type=text], input[type=email],#comment{
     background:transparent;
@@ -133,10 +174,6 @@ footer {
 
 }
 
-#portf{
-    margin-left:6%;
-    margin-right:10%;
-}
 /* start of media queries */
 
 @media only screen and (max-width: 755px){
@@ -148,9 +185,6 @@ footer {
       padding-top: 20%;
       /* font-size: 16px; */
     }
-    .col-md-3 img{
-      width:100%px;
-      margin: 20px;
     }
     #portfolio{
       margin-left:8%;
